@@ -7,6 +7,6 @@ class ActorMapper {
       name: cast.name,
       profilePath: cast.profilePath != null
           ? 'https://image.tmdb.org/t/p/w500${cast.profilePath}'
-          : 'https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg',
+          : 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png',
       character: cast.character);
 }
